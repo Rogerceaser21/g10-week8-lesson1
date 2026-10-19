@@ -1853,12 +1853,12 @@ ul.plain li::before { color:var(--p-i-ink); }
   <div class="slide-content" style="max-width:min(97vw,2500px)">
     <p class="eyebrow reveal">// lesson_2 &middot; navigation_notes</p>
     <h2 class="reveal" style="margin-bottom:calc(var(--element-gap) * 0.3)">Navigation notes: two views</h2>
-    <div class="sheet-pair sheet-big reveal" style="--pair-cols:1fr 1fr; margin-inline:0 auto; max-width:90%">
-      <div class="picfig">
+    <div class="sheet-pair sheet-big reveal" style="--pair-cols:1fr 1fr; margin-inline:0 auto; max-width:calc(100% - 5em)">
+      <div class="picfig" style="--pic-w:100%">
         <img class="photo" src="assets/nav-side-view.jpg" alt="A pencil drawing seen from the side: the drone at the start line, then 1. Take off procedure, 2. Throttle up to hover, 3. Pitch forward to the gate, with arrows">
         <p class="small" style="margin-top:6px; font-size:var(--h3-size); color:var(--p-j-ink)"><b>Page 1: side view.</b> Up, down and forward.</p>
       </div>
-      <div class="picfig">
+      <div class="picfig" style="--pic-w:100%">
         <img class="photo" src="assets/nav-top-view.jpg" alt="A pencil drawing seen from above, straight lines only: 1. pitch forward through gate 1; at the corner 2. yaw right, spin on the spot; 3. pitch forward through gate 2; at the next corner 4. yaw left, spin on the spot; 5. pitch forward to the target; 6. landing procedure">
         <p class="small" style="margin-top:6px; font-size:var(--h3-size); color:var(--p-i-ink)"><b>Page 2: top-down view.</b> The turns.</p>
       </div>
@@ -2655,7 +2655,7 @@ ul.plain li::before { color:var(--p-i-ink); }
    The slides the teacher has hidden persist the same way, under their own version-keyed
    name, so a hide survives a refresh mid-lesson but never outlives a push.
    Everything else (font scale, teacher toggle, iSAMS state, timers) stays session-only. */
-const DECK_VERSION = 'v20261019-100041';
+const DECK_VERSION = 'v20261019-100528';
 
 /* ===========================================
    RUNTIME_STRIP: everything the boot code builds or writes at run time.
